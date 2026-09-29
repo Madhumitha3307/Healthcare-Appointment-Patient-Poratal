@@ -1,0 +1,40 @@
+body {
+  background-color: #f5f7fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  margin-bottom: 0;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.btn {
+  min-width: 120px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+#health-info .row > div {
+  padding: 10px 12px;
+}
+
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+  }
+}
